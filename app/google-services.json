@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "922528595855",
+    "firebase_url": "https://chatsnapz.firebaseio.com",
+    "project_id": "chatsnapz",
+    "storage_bucket": "chatsnapz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922528595855:android:8fc455594a8ce5e6b355fa",
+        "android_client_info": {
+          "package_name": "com.syamgith.chatsnapz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922528595855-ua4n0cvtr9jfh194c4garg7q6149k4q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRbmLoaBgGbgkSp2ZtygTSKchWad-SeP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922528595855-ua4n0cvtr9jfh194c4garg7q6149k4q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
