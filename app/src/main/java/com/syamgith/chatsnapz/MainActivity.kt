@@ -1,5 +1,6 @@
 package com.syamgith.chatsnapz
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -50,6 +51,8 @@ class MainActivity : AppCompatActivity() {
 
     fun logIn() {
         //move to next activity
+        val intent = Intent(this,SnapsActivity::class.java)
+        startActivity(intent)
     }
 
 }
