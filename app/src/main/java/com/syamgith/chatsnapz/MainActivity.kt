@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         emailEditText = findViewById(R.id.emailEditText)
         passewordEditText = findViewById(R.id.passwordEditText)
 
-        if (mAuth != null) {
+        if (mAuth.currentUser != null) {
             logIn()
         }
 
