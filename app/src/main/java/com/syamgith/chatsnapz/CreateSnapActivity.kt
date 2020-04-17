@@ -100,6 +100,10 @@ class CreateSnapActivity : AppCompatActivity() {
 
                 Log.i("url", downloadURL.toString())
                 intent = Intent(this,ChooseUserActivity::class.java)
+                intent.putExtra("imageURL",downloadURL.toString())
+                intent.putExtra("imageName",imageName)
+                intent.putExtra("message",messageEditText?.text.toString())
+
                 startActivity(intent)
             }
 
