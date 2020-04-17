@@ -99,8 +99,10 @@ class CreateSnapActivity : AppCompatActivity() {
                 val downloadURL = urlTask.getResult()
 
                 Log.i("url", downloadURL.toString())
+                intent = Intent(this,ChooseUserActivity::class.java)
+                startActivity(intent)
             }
-            Log.i("URL","Done")
+
         }
 
     }
